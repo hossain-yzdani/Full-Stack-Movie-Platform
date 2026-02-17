@@ -1,7 +1,13 @@
+import Header from "@/components/main/header";
+import BannderSwiper from "@/components/main/bannerSwiper";
+import VideoLists from "@/components/main/videoLists";
+
 export default function Home() {
   return (
-    <>
-      <h1>its the Home page</h1>
-    </>
+    <div className="px-5">
+      <Header />
+      <BannderSwiper />
+      <VideoLists />
+    </div>
   );
 }
